@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+:root{
+    font-size: 62.5%;
+}
+
+body{
+    margin: 0 10%;
+    font-size: 1.6rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+    flex-direction: column;
+}
+.chart-container{
+    height: 80vh;
+    width: 70vw;
+}
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 10vh;
+    margin-bottom: 5rem;
+}
+header p{
+    font-size: 3rem;
+    letter-spacing: .4rem;
+}
+
+span{
+    text-decoration:  2px wavy underline;
+}
